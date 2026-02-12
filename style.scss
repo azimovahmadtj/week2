@@ -125,3 +125,65 @@ $fontfamily:'Popins',sans-serif;
    background-position: center center;
  background-size: cover;
 }
+.rating-awards{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    // background-color: lightgrey;
+}
+.rating-card{
+    box-shadow: 0px 0px 5px 2px;
+    width: 300px;
+    height:250px;
+    // background-color: blueviolet;
+margin-top: 15px;
+margin-left: 15px;
+
+}
+.hed{
+    width: 100%;
+    height: 30px;
+    // background-color: lime;
+    display: flex;
+    align-items: center;
+    // justify-content: space-evenly;
+}
+.hed img{
+    margin-left: 100px;
+}
+.members{
+    width: 100%;
+    // background-color: red;
+    height: 40px;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.information1{
+    margin-left: 15px;
+    font-family: $fontfamily;
+}
+.achievements{
+    margin-top: 15px;
+    width: 350px;
+    height: 280px;
+    // background-color: burlywood;
+    margin-left: 50px;
+}
+.achievements h1{
+    font-family: $fontfamily;
+    text-align: center;
+}
+.achievements p{
+    margin-left: 15px;
+    font-family: $fontfamily;
+}
+.achievements button{
+    background-color: blue;
+    color: white;
+    width: 120px;
+    margin-left: 120px;
+    border:none;
+    height: 35px;
+    border-radius: 12px;
+}
