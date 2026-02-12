@@ -85,4 +85,47 @@
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.join {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.info {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 400px;
+  height: 300px;
+}
+
+.info p {
+  margin-left: 15px;
+  color: blue;
+  font-family: "Popins", sans-serif;
+}
+
+.info h1 {
+  font-family: "Popins", sans-serif;
+  margin-left: 15px;
+}
+
+.info li {
+  margin-left: 50px;
+  color: blue;
+  font-family: "Popins", sans-serif;
+}
+
+.images {
+  display: grid;
+  margin-top: 25px;
+  margin-left: 200px;
+  width: 450px;
+  height: 360px;
+  background-image: url("./image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
