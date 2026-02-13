@@ -417,3 +417,69 @@ padding-right: 10px;
     font-family: 'Popins',sans-serif;
     margin-left: 15px;
 }
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(43, 43, 57, 1);
+    display: flex;
+    
+}
+.foot-menu{
+
+    margin-top: 85px;
+    margin-left: 45px;
+    width: 200px;
+    height: 200px;
+    // background-color: aqua;
+}
+.foot-menu p{
+    margin-left: 45px;
+    font-family: $fontfamily;
+    color: rgba(231, 231, 231, 1);
+}
+.subscribe{
+    margin-top: 35px;
+    width: 350px;
+    height: 300px;
+    // background-color: aqua;
+}
+.subscribe h3{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+.subscribe p{
+    margin-left: 15px;
+    font-family: $fontfamily;
+    color:rgba(255, 255, 255, 1) ;
+}
+#email{
+    border:3px solid lightgrey;
+    background-color: darkblue;
+height: 30px;
+margin-left: 15px;
+}
+.subs{
+    background-color: white;
+    color: black;
+    height: 35px;
+}
+.agency{
+    align-items: center;
+    display: flex;
+    margin-top: -100px;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(32, 32, 45, 1);
+}
+.agency p{
+    margin-left: 45px;
+    color: white;
+}
+.aligator{
+    margin-left: 400px;
+}
+.social{
+    margin-left: 300px;
+    // background-color: lime;
+    display: flex;
+}
